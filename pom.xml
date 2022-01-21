@@ -36,6 +36,7 @@
             <version>2.2.1</version>
         </dependency>
     </dependencies>
+    <!--  объявление названий для профайлов  -->
     <profiles>
         <profile>
             <id>local</id>
@@ -100,6 +101,7 @@
                 </executions>
             </plugin>
         </plugins>
+        <!--   использование профайлов     -->
         <resources>
             <resource>
                 <directory>src/main/resourse/${profile.name}</directory>
